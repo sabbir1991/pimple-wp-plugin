@@ -1,0 +1,22 @@
+{
+  "name": "rtcamp/rtcamp-di",
+  "description": "Test project for dic and logger implementation",
+  "type": "wordpress-plugin",
+  "license": "GPL2",
+  "authors": [
+    {
+      "name": "sabbir",
+      "email": "sabbir.ahmed@rtcamp.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "rtCamp\\DI\\": "includes/"
+    }
+  },
+  "require": {
+    "pimple/pimple": "^3.0",
+    "monolog/monolog": "2.x-dev"
+  }
+}
