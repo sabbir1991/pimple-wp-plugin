@@ -1,7 +1,7 @@
 # Test Plugin for DIC (Pimple) Integration
 
 #### Installation process
-Just `clone` the project in you `wp-content/plugins` directory and then run
+Just `clone` the project in your `wp-content/plugins` directory and then run
 `composer install` and `composer dump-autoload`
 
 #### Create a product
